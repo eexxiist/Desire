@@ -1,0 +1,50 @@
+.hero{
+  height: 55px;
+  background-color: #F5F5F5;
+}
+
+.hero a{
+  line-height: 55px;
+}
+
+
+.gallery{
+  margin-top: 126px;
+}
+
+.gallery_nav{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.gallery_nav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.gallery_nav a{
+  position: relative;
+  padding: 10px 17px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration: none;
+  color: #8F8D8D;
+  border: 1px solid #454647;
+  border-radius: 20px;
+  transition: color 0.4s ease-in;
+}
+
+.gallery_nav a:hover{
+  border-color: #FFEF35;
+  background-color: #FFEF35;
+  opacity: 0.5;
+}
+
+footer{
+  margin-top: 148px;
+}

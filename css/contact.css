@@ -1,0 +1,191 @@
+.hero{
+  height: 55px;
+  background-color: #F5F5F5;
+}
+
+.hero a{
+  line-height: 55px;
+}
+
+.main{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 107px;
+  width: 70%;
+  justify-content: center;
+}
+
+.title h1{
+  margin-top: 30px;
+  position: relative;
+  width: 200px;
+  height: 60px;
+  margin-left: 307px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #363838;
+}
+
+.title h1::after{
+  position: absolute;
+  content: "";
+  width: 88%;
+  height: 1px;
+  left: 2px;
+  bottom: -10px;
+  background: #363838;
+}
+
+.menu{
+  margin-top: 10px;
+  width: 800px;
+  height: 600px;
+}
+
+media li + li{
+  padding-left: 20px;
+}
+
+.text p{
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #A1A1A1;
+}
+
+.link{
+  padding-top: 15px;
+}
+
+.link p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #5A5A5A;
+}
+
+.mail{
+  padding-top: 15px;
+}
+
+.mail ul{
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  list-style-type: none;
+}
+
+.mail h3{
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #363838;
+}
+
+.post{
+  margin-top: 15px;
+}
+
+.message input{
+  margin-top: 10px;
+  width: 394px;
+  padding: 2px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  color: #A1A1A1;
+  opacity: 0.7;
+  border: 1px solid #DFDFDF;
+  border-radius: 24px;
+}
+
+message p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #A1A1A1;
+}
+
+.frame textarea{
+  margin-top: 10px;
+  max-width: 100%;
+  min-width: 100%;
+  width: 730px;
+  min-height: 125px;
+  padding: 18px 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #A1A1A1;
+  opacity: 0.7;
+  border: 1px solid #DFDFDF;
+  border-radius: 24px;
+}
+
+.post button{
+  margin-top: 6px;  
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFF0;
+  width: 148px;
+  height: 42px;
+  border-radius: 21px;
+  border: 1px solid #383636;
+  background: #363838;
+  transition: all 0.015s ease-in;
+}
+
+.post button:hover{
+  cursor: pointer;
+}
+
+.post button:active{
+  transform: scale(0.96);
+}
+
+.gallery_small{
+  width: 98vw;
+  padding-bottom: 25px;
+}
+
+.small{
+  width: 8.5vw;
+  height: 8.5vw;
+  background-size: cover;
+}
+
+.hero_scroll{
+  margin-bottom: 102px;
+}
+
+.hero_scroll ul{
+  padding: 0;
+  margin: 0 auto;
+  width: 100px;
+  display: flex;
+  list-style-type: none;
+}
+
+.hero_scroll li + li{
+  margin-left: 29px;
+}

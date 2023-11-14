@@ -1,0 +1,336 @@
+.hero{
+  height: 55px;
+  background-color: #F5F5F5;
+}
+
+.hero a::before{
+  left: 42px;
+}
+
+.hero a:hover::before{
+  width: 36px;
+}
+
+.hero a{
+  line-height: 55px;
+}
+
+.main{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.single{
+  width: 730px;
+}
+
+.single img{
+  padding-top: 54px;
+}
+
+.date{
+  padding-top: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  color: #707070;
+  }
+
+.single h3{
+  padding-top: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #363838;
+}
+
+
+.single p{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #5A5A5A;
+}
+
+.qoute{
+  width: 646px;
+  margin-top: 20px;
+  margin-left: 43px;
+  margin-bottom: 30px;
+}
+
+.qoute blockquote p{
+  position: relative;
+  padding-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.qoute blockquote h3{
+  padding-top: 37px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #363838;
+}
+
+.qoute blockquote p::after{
+  position: absolute;
+  content: "";
+  width: 30%;
+  height: 1px;
+  left: 0;
+  bottom: -15px;
+  background: #6D7278;
+  opacity: 0.4;
+}
+
+.gallery_nav{
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.review{
+  margin-bottom: 40px;
+}
+
+.pleft p{
+  position: relative;
+  width: 310px;
+  padding-top: 40px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+}
+
+.pleft p::before{
+  position: absolute;
+  content: "";
+  width: 236%;
+  height: 1px;
+  left: -35px;
+  bottom: 10px;
+  background: #DFDFDF;
+}
+
+.pright p{
+  position: relative;
+  width: 310px;
+  padding-top: 40px;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #707070;
+}
+
+.pright p::after{
+  position: absolute;
+  content: "";
+  width: 236%;
+  height: 1px;
+  left: -375px;
+  bottom: 130px;
+  background: #DFDFDF;
+}
+
+.review img{
+  padding-bottom: 10px;
+}
+
+.comments h2{
+  
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #363838;
+}
+
+.comment img{
+  padding: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.article{
+  margin-left: 15px;
+}
+
+.name h3{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #363838;
+}
+
+.article_title p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #A1A1A1;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.name p{
+  position: relative;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 16px;
+  color: #707070;
+}
+
+.name p::after{
+  position: absolute;
+  left: -30px;
+  top: -12px;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: url('/images/reply.svg');
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.article_text{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #5A5A5A;
+}
+
+.post{
+  margin-bottom: 120px;
+}
+
+.post h3{
+  padding-top: 120px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  color: #363838;
+}
+
+.frame textarea{
+  margin-top: 20px;
+  max-width: 100%;
+  min-width: 100%;
+  width: 730px;
+  min-height: 200px;
+  padding: 18px 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #A1A1A1;
+  opacity: 0.7;
+  border: 1px solid #DFDFDF;
+  border-radius: 24px;
+}
+
+.mail input{
+  margin-top: 10px;
+  width: 360px;
+  padding: 6px 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 40px;
+  color: #A1A1A1;
+  opacity: 0.7;
+  border: 1px solid #DFDFDF;
+  border-radius: 24px;
+}
+
+.mail p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #A1A1A1;
+}
+
+.check{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.check input{
+  margin: 0;
+  padding: 0;
+  width: 21px;
+  margin-left: 4px;
+  margin-right: 6px;
+}
+
+.check label{
+  width: 98px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #A1A1A1;
+
+}
+
+.mail button{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFF0;
+  width: 160px;
+  height: 42px;
+  border-radius: 21px;
+  border: 1px solid #383636;
+  background: #363838;
+  transition: all 0.015s ease-in;
+}
+
+.mail button:hover{
+  cursor: pointer;
+}
+
+.mail button:active{
+  transform: scale(0.96);
+}
